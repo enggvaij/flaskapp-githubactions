@@ -5,4 +5,4 @@ def test_home():
     response=app.test_client().get("/")
 
     assert response.status_code==200
-    assert response.data==b"Hello from the test cases: hello wrold!"
+    assert response.data==b"Hello , This project is to Automate Flask App Deployment -AWS "
