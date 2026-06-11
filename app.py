@@ -5,6 +5,9 @@ app = Flask(__name__)
 def home():
     return "Hello , This project is to Automate Flask App Deployment -AWS "
 
+@app.route("/about")
+def about():
+    return "This is about page."
 
 if __name__ == '' :
     app.run(host='0.0.0.0' , port =5000)
